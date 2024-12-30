@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+     <!-- css -->
+     <link rel="stylesheet" href="./style.css">
+     <!-- tailwind cdn -->
+     <script src="https://cdn.tailwindcss.com"></script>
+     <!-- boxicon -->
+     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+     <!-- fauntawsome cdn -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+         crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+     <!-- navbar -->
+     <div>
+        <header class="fixed top-0 left-0 w-full shadow mb-2 bg-black text-white z-10 border-2">
+            <div
+                class="relative flex max-w-screen-xl flex-col overflow-hidden px-4 py-4 md:mx-auto md:flex-row md:items-center">
+                <a href="./index.html" class="flex items-center whitespace-nowrap text-2xl font-black">
+                    <h1 class="text-3xl">Jeswin John</h1>
+                </a>
+                <input type="checkbox" class="peer hidden" id="navbar-open" />
+                <label class="absolute top-5 right-7 cursor-pointer md:hidden" for="navbar-open">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </label>
+
+                <nav aria-label="Header Navigation"
+                    class="peer-checked:mt-8 peer-checked:max-h-56 flex max-h-0 w-full flex-col items-center justify-between overflow-hidden transition-all md:ml-24 md:max-h-full md:flex-row md:items-start">
+                    <ul class="flex flex-col items-center space-y-2 md:ml-auto md:flex-row md:space-y-0">
+                        <li class=" text-white md:mr-12  cursor-pointer text-xl">
+                            <a href="./index.html">Home</a>
+                        </li>
+                        <li class=" text-white md:mr-12  cursor-pointer text-xl">
+                            <a href="./about.html">About</a>
+                        </li>
+                        <li class=" text-white md:mr-12  cursor-pointer text-xl">
+                            <a href="./skil.html">Skills</a>
+                        </li>
+                        <li class=" text-white md:mr-12  cursor-pointer text-xl">
+                            <a href="./exp.html">Experience</a>
+                        </li>
+                        <li class=" text-white md:mr-12  cursor-pointer text-xl">
+                            <a href="./project.html">Project</a>
+                        </li>
+                        <li class=" text-white md:mr-12 cursor-pointer text-xl">
+                            <a href="./contact.html">
+                                <button
+                                    class="rounded-md border-2  px-6 py-1text-white md:mr-12 cursor-pointer text-xl">
+                                    Contact
+                                </button>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </div>
+    <!-- project -->
+    <div class="grid grid-rows grid-cols-1 mt-16 ">
+
+        <div class="mt-8 flex justify-center">
+            <h1 class="text-white font-bold text-3xl sm:text-5xl  focus-in-contract"
+                style="text-decoration: underline cyan ; ">Projects</h1>
+        </div>
+    </div>
+    <div class="grid grid-rows grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mt-16 mb-12">
+<div class="card ms-8 mt-4">
+    <img class="w-full h-full" src="https://i.pinimg.com/736x/a9/a9/ab/a9a9ab024cc13b74e22e84d6e7c68fc4.jpg" alt="">
+  <div class="card__content">
+    <p class="card__title">Event Management Website</p>
+    <p class="card__description">Event Aura, an event management platform designed to streamline and enhance event organization.
+
+        Using HTML, CSS, and the power of Tailwind CSS, we focused on creating a visually appealing and responsive interface that provides a seamless user experience.</p>
+   <button class="card__button"><a href="https://eventmanagement-pied.vercel.app">Live Demo</a></button>
+    <button class="card__button secondary mt-2"><a href="https://github.com/Jeswin-john10/eventmanagement.git" >Source Code</a></button> </div>
+</div>
+
+
+<div class="card ms-8 mt-8">
+    <img class="w-full h-full" src="https://i.pinimg.com/736x/ed/29/ea/ed29eaf6ec59e26ba5ea70dd9bf98de6.jpg" alt="">
+  <div class="card__content">
+    <p class="card__title">Online Sports Store</p>
+    <p class="card__description">UniSport, a sports store that brings together fitness enthusiasts and sports lovers! Using HTML, CSS, and Bootstrap, we are building a responsive, user-friendly website that showcases a variety of sports products and enhances the shopping experience.
+
+</p>
+   <button class="card__button"><a href="https://unisports-eta.vercel.app">Live Demo</a></button>
+    <button class="card__button secondary mt-2"><a href="https://github.com/Jeswin-john10/unisports.git" >Source Code</a></button> </div>
+</div>
+
+
+
+<div class="card ms-8 mt-8">
+    <img class="w-full h-full" src="https://i.pinimg.com/736x/6c/39/e0/6c39e079da27a049cb1e4fdb29cad898.jpg" alt="">
+  <div class="card__content">
+    <p class="card__title">Online Educational Platform</p>
+    <p class="card__description">EduTech, an online education platform designed to revolutionize learning experiences.
+         Built using HTML, CSS, and Bootstrap, this project showcases modern design principles and responsive features to 
+        create a user-friendly interface for learners.
+</p>
+   <button class="card__button"><a href="https://edutech-chi.vercel.app">Live Demo</a></button>
+    <button class="card__button secondary mt-2"><a href="https://github.com/Jeswin-john10/edutech.git" >Source Code</a></button> </div>
+</div>
+<div class="card ms-8 mt-8">
+    <img class="w-full h-full" src="https://i.pinimg.com/736x/05/75/29/057529518ce9354acdff33f0c78a30db.jpg" alt="">
+  <div class="card__content">
+    <p class="card__title">Online Mobile Store</p>
+    <p class="card__description">TechHUB, The website is fully responsive,ensuring a seamless experience across all devices,from desktop to mobile. Bootstrap framework is to create a clean, modern layout with easy navigation and fast loading times.Built using HTML,CSS and BOOTSTRAP. 
+</p>
+   <button class="card__button"><a href="https://online-mobile-store.vercel.app">Live Demo</a></button>
+    <button class="card__button secondary mt-2"><a href="https://github.com/Jeswin-john10/mobile-store.git" >Source Code</a></button> </div>
+</div>
+    </div>
+</body>
+</html>
